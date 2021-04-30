@@ -1,34 +1,15 @@
 import "./App.css";
 import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import RecommendedVideos from "./components/RecommendedVideos";
 function App() {
 	return (
 		<div className="app">
 			<Header />
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
-			<h1>TEST</h1>
+			<div className="app__page">
+				<SideBar />
+				<RecommendedVideos />
+			</div>
 		</div>
 	);
 }
