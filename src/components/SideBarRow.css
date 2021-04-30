@@ -18,3 +18,18 @@
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
+.sidebarRow:hover > .sidebarRow__icon {
+	color: red;
+}
+.sidebarRow:hover > .sidebarRow__title {
+	/* font-weight: bold !important; */
+}
+.sidebarRow.selected {
+	background-color: lightgray !important;
+}
+.sidebarRow.selected > .sidebarRow__icon {
+	color: red;
+}
+.sidebarRow.selected > .sidebarRow__title {
+	font-weight: bold !important;
+}
