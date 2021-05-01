@@ -25,10 +25,10 @@ function Header() {
 			</div>
 
 			<div className="header__icon">
-				<VideoCallIcon className="header__icon" />
-				<AppsIcon className="header__icon" />
-				<NotificationsIcon className="header__icon" />
-				<Avatar alt="Amir-Mohammad" src="" />
+				<VideoCallIcon className="header__icon icon" />
+				<AppsIcon className="header__icon icon" />
+				<NotificationsIcon className="header__icon icon" />
+				<Avatar className="header__profile" alt="Amir-Mohammad" src="" />
 			</div>
 		</div>
 	);

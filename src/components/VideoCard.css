@@ -14,3 +14,15 @@
 .videoCard__text {
 	margin-left: 10px;
 }
+.videoCard__text > h4 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.videoCard__text > p {
+	font-size: 15px;
+	color: rgb(46, 46, 46);
+}
+.videoCard__avatar {
+	height: 30px !important;
+	width: 30px !important;
+}

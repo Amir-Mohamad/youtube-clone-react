@@ -22,19 +22,40 @@
 	border: 1px solid lightgray;
 }
 .header__inputButton {
-	width: 50px !important;
+	width: 40px !important;
 	background-color: #fafafa;
 	border-left: 1px solid lightgray;
 	color: gray;
 }
-.header__icon {
-	margin-right: 10px;
-}
+
 .header__icon {
 	display: flex;
 	align-items: center;
 }
+.icon {
+	margin-right: 2px !important;
+}
+.header__icon:last-child {
+	margin-right: 10px;
+}
 .header__input > input {
 	flex: 1;
 	border: none;
+}
+@media screen and (max-width: 538px) {
+	.header__input > input {
+		width: 10% !important;
+		padding: 0;
+	}
+	.header__logo {
+		height: 20px;
+		width: 80px;
+		object-fit: contain;
+		margin-left: 20px;
+	}
+	.header__icon {
+		margin-right: 0px;
+		height: 10px;
+		width: 100px;
+	}
 }
